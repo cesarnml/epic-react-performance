@@ -2,7 +2,7 @@
 
 - [Epic React performance](#epic-react-performance)
   - [Lesson 1 - Code Splitting](#lesson-1---code-splitting)
-  - [Lesson 2 - useMemo For Expensive Calculations](#lesson-2---usememo-for-expensive-calculations)
+  - [Lesson 2 - useMemo for Expensive Calculations](#lesson-2---usememo-for-expensive-calculations)
   - [Lesson 3 - React.memo for Reducing Unnecessary Re-Renders](#lesson-3---reactmemo-for-reducing-unnecessary-re-renders)
   - [Lesson 4 - Window Large Lists with react-virtual](#lesson-4---window-large-lists-with-react-virtual)
   - [Lesson 5 - Optimize Context Value](#lesson-5---optimize-context-value)
@@ -37,7 +37,7 @@ const LazyComponent = React.lazy(() => import('lazy/component/path'))
 </React.Suspense>
 ```
 
-## Lesson 2 - useMemo For Expensive Calculations
+## Lesson 2 - useMemo for Expensive Calculations
 
 ## Lesson 3 - React.memo for Reducing Unnecessary Re-Renders
 

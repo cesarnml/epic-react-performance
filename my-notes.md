@@ -33,7 +33,7 @@ const Fallback = <div>Loading</div>
 const LazyComponent = React.lazy(() => import('lazy/component/path'))
 
 <React.Suspense fallback={Fallback}>
-<LazyComponent/>
+  <LazyComponent/>
 </React.Suspense>
 ```
 

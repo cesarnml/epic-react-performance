@@ -27,7 +27,7 @@ function App() {
         padding: '2rem',
       }}
     >
-      <label style={{marginBottom: '1rem'}}>
+      <label style={{marginBottom: '1rem'}} onMouseEnter={() => import('../globe')}>
         <input
           type="checkbox"
           checked={showGlobe}

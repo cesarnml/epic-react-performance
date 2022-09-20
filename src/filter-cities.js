@@ -15,4 +15,4 @@ export function getItems(filter) {
   return matchSorter(allItems, filter, {
     keys: ['name'],
   })
-}
+k}

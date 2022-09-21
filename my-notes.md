@@ -27,9 +27,10 @@ import('some/module/path').then(
 - React Lazy Component Loading Syntax:
 
 ```jsx
+// Fallback Component
 const Fallback = <div>Loading</div>
 
-// LazyComponent must be default export from import module
+// LazyComponent must be default export from  module
 const LazyComponent = React.lazy(() => import('lazy/component/path'))
 
 <React.Suspense fallback={Fallback}>

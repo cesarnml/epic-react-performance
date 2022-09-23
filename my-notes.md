@@ -40,6 +40,8 @@ const LazyComponent = React.lazy(() => import('lazy/component/path'))
 
 ## Lesson 2 - useMemo for Expensive Calculations
 
+- write something here
+
 ## Lesson 3 - React.memo for Reducing Unnecessary Re-Renders
 
 ## Lesson 4 - Window Large Lists with react-virtual

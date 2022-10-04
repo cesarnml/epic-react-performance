@@ -45,13 +45,13 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
     "react-scripts": "^5.0.1",
-    "serve": "^13.0.2"
+    "serve": "^14.0.1"
   },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
     "build:profile": "craco build --profile",
-    "serve": "serve -s build",
+    "serve": "serve -p 5002 -s --cors build",
     "test": "craco test",
     "test:coverage": "npm run test -- --watchAll=false --coverage",
     "test:exercises": "npm run test -- testing.*exercises\\/ --onlyChanged",
